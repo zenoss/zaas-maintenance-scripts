@@ -16,7 +16,7 @@ fi
 
 # Declare variables
 TARGET=$(hostname -s)
-SRC_DIR="/opt/serviced/var/backup"
+SRC_DIR="/opt/serviced/var/backups"
 LOG_DIR="$SRC_DIR/log"
 DOCKER_SRC_DIR="/mnt/pwd"
 IPADDR=$(hostname -i)
